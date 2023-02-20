@@ -8,13 +8,13 @@ def calc_imc():
     IMC = peso / (altura/100)**2
 
     if IMC < 18.5:
-        label_result["text"] = f'Seu IMC é de {IMC:.2f}, e é classificado como Magreza'
+        label_result["text"] = f'Seu IMC é de {IMC:.2f}, e é classificado como Magreza!'
     elif IMC >= 18.5 and IMC < 24.9:
-        label_result["text"] = f'Seu IMC é de {IMC:.2f}, e é classificado como Normal'
+        label_result["text"] = f'Seu IMC é de {IMC:.2f}, e é classificado como Normal!'
     elif IMC >= 25 and IMC < 29.9:
-        label_result["text"] = f'Seu IMC é de {IMC:.2f}, e é classificado como Sobrepeso'
+        label_result["text"] = f'Seu IMC é de {IMC:.2f}, e é classificado como Sobrepeso!'
     elif IMC >= 30 and IMC < 39.9:
-        label_result["text"] = f'Seu IMC é de {IMC:.2f}, e é classificado como Obesidade'
+        label_result["text"] = f'Seu IMC é de {IMC:.2f}, e é classificado como Obesidade!'
     else:
         label_result["text"] = "Pode para de comer e começar a malhar pois o negócio está feio! Obesidade Grave!!!"
 
